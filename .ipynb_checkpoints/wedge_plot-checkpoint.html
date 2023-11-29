@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="d9b7bd73-3b83-4ef4-8a0b-36409d68007e" data-root-id="p1090" style="display: contents;"></div>
+  
+    <script type="application/json" id="p1287">
+      {"0874baff-6653-49a8-9494-66a247a79022":{"version":"3.1.1","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p1090","attributes":{"width":400,"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p1092"},"y_range":{"type":"object","name":"DataRange1d","id":"p1091"},"x_scale":{"type":"object","name":"LinearScale","id":"p1103"},"y_scale":{"type":"object","name":"LinearScale","id":"p1105"},"title":{"type":"object","name":"Title","id":"p1096"},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1142","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1136","attributes":{"selected":{"type":"object","name":"Selection","id":"p1138","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1137"},"data":{"type":"map","entries":[["radius",[0,1]]]}}},"view":{"type":"object","name":"CDSView","id":"p1143","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1144"}}},"glyph":{"type":"object","name":"Wedge","id":"p1139","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":0},"radius":{"type":"field","field":"radius"},"start_angle":{"type":"value","value":0},"end_angle":{"type":"value","value":2.0933333333333333},"fill_color":{"type":"value","value":"orange"}}},"nonselection_glyph":{"type":"object","name":"Wedge","id":"p1140","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":0},"radius":{"type":"field","field":"radius"},"start_angle":{"type":"value","value":0},"end_angle":{"type":"value","value":2.0933333333333333},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"orange"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Wedge","id":"p1141","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":0},"radius":{"type":"field","field":"radius"},"start_angle":{"type":"value","value":0},"end_angle":{"type":"value","value":2.0933333333333333},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"orange"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1097","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1121"},{"type":"object","name":"WheelZoomTool","id":"p1122"},{"type":"object","name":"BoxZoomTool","id":"p1123","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1124","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1125"},{"type":"object","name":"ResetTool","id":"p1126"},{"type":"object","name":"HelpTool","id":"p1127"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1114","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1117","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1116"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1115"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1107","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1110","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1109"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1108"}}}],"center":[{"type":"object","name":"Grid","id":"p1113","attributes":{"axis":{"id":"p1107"}}},{"type":"object","name":"Grid","id":"p1120","attributes":{"dimension":1,"axis":{"id":"p1114"}}},{"type":"object","name":"Legend","id":"p1145","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p1146","attributes":{"label":{"type":"value","value":"Wedge"},"renderers":[{"id":"p1142"}]}}]}}]}}],"callbacks":{"type":"map"}}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p1287').textContent;
+              const render_items = [{"docid":"0874baff-6653-49a8-9494-66a247a79022","roots":{"p1090":"d9b7bd73-3b83-4ef4-8a0b-36409d68007e"},"root_ids":["p1090"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

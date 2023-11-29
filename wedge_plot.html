@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="f8d68033-c8bc-421b-8adc-d486569b526b" data-root-id="p3404" style="display: contents;"></div>
+  
+    <script type="application/json" id="p3665">
+      {"2c9b469a-ef52-4a7e-b6a6-8d7489ea45a9":{"version":"3.1.1","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Column","id":"p3404","attributes":{"children":[{"type":"object","name":"Slider","id":"p3402","attributes":{"js_property_callbacks":{"type":"map","entries":[["change:value",[{"type":"object","name":"CustomJS","id":"p3403","attributes":{"args":{"type":"map","entries":[["plot_source",{"type":"object","name":"ColumnDataSource","id":"p3381","attributes":{"selected":{"type":"object","name":"Selection","id":"p3382","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3383"},"data":{"type":"map","entries":[["Disease",{"type":"ndarray","array":["Meningitis","Alzheimer","Parkinson","Malaria"],"shape":[4],"dtype":"object","order":"little"}],["Deaths",{"type":"ndarray","array":{"type":"bytes","data":"bwgAAFwEAABzAQAAXQAAAA=="},"shape":[4],"dtype":"int32","order":"little"}],["Percent",{"type":"ndarray","array":{"type":"bytes","data":"3q5yLxHfTECdcsI4+dg9QDRM5fFJ2CNAaUwse/vlA0A="},"shape":[4],"dtype":"float64","order":"little"}],["angle",{"type":"ndarray","array":{"type":"bytes","data":"1F97pE8GDUBiGoNeiwH+P/LaF25D8+M/7GZXlAcBxD8="},"shape":[4],"dtype":"float64","order":"little"}],["start_angle",{"type":"ndarray","array":{"type":"bytes","data":"GC1EVPsh+T9HSVn6UXUAwHjWmqkXdg/AmmaQQnQ5EsA="},"shape":[4],"dtype":"float64","order":"little"}],["end_angle",{"type":"ndarray","array":{"type":"bytes","data":"SElZ+lF1AMB41pqpF3YPwJpmkEJ0ORLA0SEzf3zZEsA="},"shape":[4],"dtype":"float64","order":"little"}],["color",{"type":"ndarray","array":["#1f77b3","#ff7e0e","#2ba02b","#d62628"],"shape":[4],"dtype":"object","order":"little"}]]}}}],["sources",[{"type":"map","entries":[["Disease",{"type":"ndarray","array":["Meningitis","Alzheimer","Parkinson","Malaria"],"shape":[4],"dtype":"object","order":"little"}],["Deaths",{"type":"ndarray","array":{"type":"bytes","data":"bwgAAFwEAABzAQAAXQAAAA=="},"shape":[4],"dtype":"int32","order":"little"}],["Percent",{"type":"ndarray","array":{"type":"bytes","data":"3q5yLxHfTECdcsI4+dg9QDRM5fFJ2CNAaUwse/vlA0A="},"shape":[4],"dtype":"float64","order":"little"}],["angle",{"type":"ndarray","array":{"type":"bytes","data":"1F97pE8GDUBiGoNeiwH+P/LaF25D8+M/7GZXlAcBxD8="},"shape":[4],"dtype":"float64","order":"little"}],["start_angle",{"type":"ndarray","array":{"type":"bytes","data":"GC1EVPsh+T9HSVn6UXUAwHjWmqkXdg/AmmaQQnQ5EsA="},"shape":[4],"dtype":"float64","order":"little"}],["end_angle",{"type":"ndarray","array":{"type":"bytes","data":"SElZ+lF1AMB41pqpF3YPwJpmkEJ0ORLA0SEzf3zZEsA="},"shape":[4],"dtype":"float64","order":"little"}],["color",{"type":"ndarray","array":["#1f77b3","#ff7e0e","#2ba02b","#d62628"],"shape":[4],"dtype":"object","order":"little"}]]},{"type":"map","entries":[["Disease",{"type":"ndarray","array":["Meningitis","Alzheimer","Parkinson","Malaria"],"shape":[4],"dtype":"object","order":"little"}],["Deaths",{"type":"ndarray","array":{"type":"bytes","data":"OAYAAEoDAABICQAAvQAAAA=="},"shape":[4],"dtype":"int32","order":"little"}],["Percent",{"type":"ndarray","array":{"type":"bytes","data":"posfqKvYP0BhKWgC59cwQNdNcNnGw0dAV3q9FP0+DkA="},"shape":[4],"dtype":"float64","order":"little"}],["angle",{"type":"ndarray","array":{"type":"bytes","data":"10daq/oBAEBNersMzO7wP+tOgFgU5AdAcWQA5Rlozj8="},"shape":[4],"dtype":"float64","order":"little"}],["start_angle",{"type":"ndarray","array":{"type":"bytes","data":"GC1EVPsh+T9gisEJ6Ifbv+LcKw/G0Pe/rh4LsDvmEcA="},"shape":[4],"dtype":"float64","order":"little"}],["end_angle",{"type":"ndarray","array":{"type":"bytes","data":"WIrBCeiH27/k3CsPxtD3v64eC7A75hHA0iEzf3zZEsA="},"shape":[4],"dtype":"float64","order":"little"}],["color",{"type":"ndarray","array":["#1f77b3","#ff7e0e","#2ba02b","#d62628"],"shape":[4],"dtype":"object","order":"little"}]]},{"type":"map","entries":[["Disease",{"type":"ndarray","array":["Meningitis","Alzheimer","Parkinson","Malaria"],"shape":[4],"dtype":"object","order":"little"}],["Deaths",{"type":"ndarray","array":{"type":"bytes","data":"Sg8AABYCAACLBgAA5wAAAA=="},"shape":[4],"dtype":"int32","order":"little"}],["Percent",{"type":"ndarray","array":{"type":"bytes","data":"7F52y6vMTkDI4d5i7c4gQEj1vD+BXDpA2d82v4MVDUA="},"shape":[4],"dtype":"float64","order":"little"}],["angle",{"type":"ndarray","array":{"type":"bytes","data":"OmhsMYn2DkBE+xo6xuXgP/XGWUpWgPo/sPqENgw9zT8="},"shape":[4],"dtype":"float64","order":"little"}],["start_angle",{"type":"ndarray","array":{"type":"bytes","data":"GC1EVPsh+T+vUUqHi2UCwIAQ0RX9ngbA/Pl+HZTvEcA="},"shape":[4],"dtype":"float64","order":"little"}],["end_angle",{"type":"ndarray","array":{"type":"bytes","data":"rlFKh4tlAsCAENEV/Z4GwP35fh2U7xHA0iEzf3zZEsA="},"shape":[4],"dtype":"float64","order":"little"}],["color",{"type":"ndarray","array":["#1f77b3","#ff7e0e","#2ba02b","#d62628"],"shape":[4],"dtype":"object","order":"little"}]]}]]]},"code":"\n    const year_select = cb_obj.value\n    const source_list = sources\n    plot_source.data = source_list[year_select - 1990]\n"}}]]]},"title":"Select year","start":1990,"end":1992,"value":1990}},{"type":"object","name":"Figure","id":"p3334","attributes":{"width":650,"height":550,"x_range":{"type":"object","name":"Range1d","id":"p3344","attributes":{"start":-0.6}},"y_range":{"type":"object","name":"DataRange1d","id":"p3336"},"x_scale":{"type":"object","name":"LinearScale","id":"p3348"},"y_scale":{"type":"object","name":"LinearScale","id":"p3350"},"title":{"type":"object","name":"Title","id":"p3337","attributes":{"text":"Diseases","text_font_size":"16pt"}},"outline_line_color":null,"renderers":[{"type":"object","name":"GlyphRenderer","id":"p3390","attributes":{"data_source":{"id":"p3381"},"view":{"type":"object","name":"CDSView","id":"p3391","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p3392"}}},"glyph":{"type":"object","name":"Wedge","id":"p3387","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.6},"start_angle":{"type":"field","field":"start_angle"},"end_angle":{"type":"field","field":"end_angle"},"direction":"clock","line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"color"}}},"nonselection_glyph":{"type":"object","name":"Wedge","id":"p3388","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.6},"start_angle":{"type":"field","field":"start_angle"},"end_angle":{"type":"field","field":"end_angle"},"direction":"clock","line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"color"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Wedge","id":"p3389","attributes":{"x":{"type":"value","value":0},"y":{"type":"value","value":1},"radius":{"type":"value","value":0.6},"start_angle":{"type":"field","field":"start_angle"},"end_angle":{"type":"field","field":"end_angle"},"direction":"clock","line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"color"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p3342","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p3366"},{"type":"object","name":"WheelZoomTool","id":"p3367"},{"type":"object","name":"BoxZoomTool","id":"p3368","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p3369","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p3370"},{"type":"object","name":"ResetTool","id":"p3371"},{"type":"object","name":"HelpTool","id":"p3372"},{"type":"object","name":"HoverTool","id":"p3399","attributes":{"renderers":"auto","tooltips":[["Disease","@{Disease}"],["Deaths","@Deaths"],["Percent","@Percent{f0.0} %"]]}}],"active_drag":null}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p3359","attributes":{"visible":false,"ticker":{"type":"object","name":"BasicTicker","id":"p3361","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3360"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p3362"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p3352","attributes":{"visible":false,"ticker":{"type":"object","name":"BasicTicker","id":"p3354","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3353"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p3355"}}}],"center":[{"type":"object","name":"Grid","id":"p3358","attributes":{"axis":{"id":"p3352"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p3365","attributes":{"dimension":1,"axis":{"id":"p3359"},"grid_line_color":null}},{"type":"object","name":"Legend","id":"p3393","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p3394","attributes":{"label":{"type":"field","field":"Disease"},"renderers":[{"id":"p3390"}]}}]}}]}}]}}],"callbacks":{"type":"map"}}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p3665').textContent;
+              const render_items = [{"docid":"2c9b469a-ef52-4a7e-b6a6-8d7489ea45a9","roots":{"p3404":"f8d68033-c8bc-421b-8adc-d486569b526b"},"root_ids":["p3404"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
