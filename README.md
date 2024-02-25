@@ -9,7 +9,7 @@ Data visualization & Analysis on world population throughout history, birth rate
 #### Death Causes - 
 
 ## Built with
-* [Bokeh]
+* Bokeh
 (http://bokeh.org)
 * GeoPandas
 (https://geopandas.org/en/stable/)
