@@ -28,5 +28,5 @@ Showcases the most fatal diseases throughout a particular year, a larger sector 
 #### * Death Causes -
 ![dc](https://github.com/AlZ11/World-Statistical-Data-Analysis-and-Visualization/assets/117889438/77908d35-fae4-4a77-963a-459aa101e340)
 
-Data from [https://ourworldindata.org][1]
-[1](https://ourworldindata.org)
+Data from https://ourworldindata.org
+
